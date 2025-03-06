@@ -15,7 +15,7 @@ process SAYHELLO {
     """
     #!/usr/bin/env python
     x = "$x"
-    print(f'Hello {x}')
+    print(f'python: Hello {x}')
     #print("Test")
     """
 }

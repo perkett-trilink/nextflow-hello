@@ -12,7 +12,7 @@ process SAYHELLO {
   
   script:
     """
-    printf "Hello ${x}"
+    echo "bash: Hello ${x}"
     """
 }
 
