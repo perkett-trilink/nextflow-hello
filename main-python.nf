@@ -11,8 +11,12 @@ process SAYHELLO {
     stdout
   
   script:
+    // NOTE: running with a python shell is weird
     """
-    printf "Hello ${x}"
+    #!/usr/bin/env python
+    x = "$x"
+    print(f'Hello {x}')
+    #print("Test")
     """
 }
 
