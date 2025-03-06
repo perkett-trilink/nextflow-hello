@@ -1,1 +1,1 @@
-# nextflow-hello
+Simple NextFlow script for testing.
